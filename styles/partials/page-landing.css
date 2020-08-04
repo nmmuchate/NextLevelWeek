@@ -10,3 +10,17 @@
 #page-landing #container {
     background: var(--color-text-in-primary);
 }
+
+.logo-container img {
+    height: 10 rem;
+}
+
+.logo-container {
+    /* Alinhamento de texto*/
+    text-align: center;
+}
+
+.hero-image {
+    /* Herdou a largura do seu pai(container) */
+    width: 100%;
+}
