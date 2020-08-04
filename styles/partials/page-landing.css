@@ -1,0 +1,12 @@
+:root {
+    /* modificar as medidas rem */
+    font-size: 40%;
+}
+
+#page-landing {
+    background: var(--color-primary);
+}
+
+#page-landing #container {
+    background: var(--color-text-in-primary);
+}
