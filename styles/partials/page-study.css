@@ -174,3 +174,9 @@ teacher-item {
     line-height: 2.4rem;
     color: var(--color-text-complement);
 }
+
+.teacher-item footer p strong {
+    font-size: 1.6rem;
+    color: var(--color-primary);
+    display: block;
+}
