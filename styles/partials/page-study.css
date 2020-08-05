@@ -109,3 +109,15 @@ input-block label {
     right: 1.6rem;
     bottom: 0;
 }
+
+#page-study main {
+    margin: 3.2rem auto;
+    width: 90%;
+}
+
+#page-study article {
+    background-color: var(--color-box-base);
+    border: 1px solid var(--color-line-in-white);
+    border-radius: 0.8rem;
+    margin-top: 2.4rem;
+}
