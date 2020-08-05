@@ -7,12 +7,12 @@
     background: var(--color-primary);
 }
 
-#page-landing #container {
-    background: var(--color-text-in-primary);
+#page-landing #container h2 {
+    color: var(--color-text-in-primary);
 }
 
 .logo-container img {
-    height: 10 rem;
+    height: 10rem;
 }
 
 .logo-container {
@@ -52,12 +52,27 @@
     justify-content: center;
     text-decoration: none;
     color: var(--color-button-text);
+    transition: background 0.5s;
+}
+
+.buttons-container a img {
+    /* diminui a imagem dentro do butao */
+    width: 4rem;
 }
 
 .buttons-container a.study {
     background: var(--color-primary-lighter);
 }
 
+.buttons-container a.study:hover {
+    background: var(--color-primary-light);
+}
+
 .buttons-container a.give-class {
     background: var(--color-secondary);
+    margin-right: 0;
+}
+
+.buttons-container a.give-class:hover {
+    background: var(--color-secondary-dark);
 }
