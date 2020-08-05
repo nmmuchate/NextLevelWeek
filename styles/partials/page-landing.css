@@ -102,10 +102,13 @@
         display: grid;
         grid-template-columns: 2fr 1fr 2fr;
         grid-template-rows: 350px 1fr;
-        grid-template-areas: "proffy image image" "button button texting"
+        grid-template-areas: "proffy image image" "button button texting";
+        gap: 60px;
+        /*funcional no grid(gap)*/
     }
     .logo-container {
         grid-area: proffy;
+        text-align: initial;
     }
     .hero-image {
         grid-area: image;
