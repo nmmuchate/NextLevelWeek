@@ -104,17 +104,26 @@
         grid-template-rows: 350px 1fr;
         grid-template-areas: "proffy image image" "button button texting";
         gap: 60px;
-        /*funcional no grid(gap)*/
+        /* separação da grid's (gap) */
     }
     .logo-container {
         grid-area: proffy;
         text-align: initial;
+        /* alinhamento dos conteudos dentro da grid */
+        align-self: center;
+    }
+    .logo-container img {
+        height: 100%;
     }
     .hero-image {
         grid-area: image;
     }
     .buttons-container {
         grid-area: button;
+        /*  esse justify sobreescreve o justify da linha 39
+            alinha os botoes com a imagem de proffy
+        */
+        justify-content: flex-start;
     }
     .total-connections {
         grid-area: texting;
