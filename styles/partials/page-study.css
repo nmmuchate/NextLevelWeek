@@ -194,6 +194,10 @@ teacher-item {
     align-items: center;
     justify-content: space-evenly;
     text-decoration: none;
-    transition: background 0.2s;
+    transition: background 0.5s;
     margin-left: 1.6rem;
+}
+
+.teacher-item footer button:hover {
+    background: var(--color-secondary-dark);
 }
