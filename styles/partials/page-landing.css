@@ -58,6 +58,8 @@
 .buttons-container a img {
     /* diminui a imagem dentro do butao */
     width: 4rem;
+    /*separação da imagem da letra no butão*/
+    margin-right: 2.4rem;
 }
 
 .buttons-container a.study {
@@ -75,4 +77,17 @@
 
 .buttons-container a.give-class:hover {
     background: var(--color-secondary-dark);
+}
+
+.total-connections {
+    /* Centralização do paragrafo */
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.total-connections img {
+    /* Separação da imagem com o paragrafo */
+    margin-left: 0.8rem;
 }
