@@ -105,7 +105,8 @@
         grid-template-columns: 2fr 1fr 2fr;
         grid-template-rows: 350px 1fr;
         grid-template-areas: "proffy image image" "button button texting";
-        gap: 60px;
+        column-gap: 87px;
+        row-gap: 86px;
         /* separação da grid's (gap) */
     }
     .logo-container {
