@@ -1,8 +1,3 @@
-:root {
-    /* modificar as medidas rem */
-    font-size: 40%;
-}
-
 #page-landing {
     background: var(--color-primary);
 }
@@ -90,6 +85,13 @@
 .total-connections img {
     /* Separação da imagem com o paragrafo */
     margin-left: 0.8rem;
+}
+
+@media (max-width: 699px) {
+     :root {
+        /* modificar as medidas rem */
+        font-size: 40%;
+    }
 }
 
 
