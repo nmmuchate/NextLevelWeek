@@ -128,9 +128,14 @@ teacher-item {
     align-items: center;
 }
 
-.teacher-item img {
+.teacher-item header img {
     /* perfil do proffy[tornar o quadrado circular] */
     width: 8rem;
     height: 8rem;
     border-radius: 50%;
+}
+
+.teacher-item header div {
+    /*afastamento do nome e da foto de perfil*/
+    margin-left: 2.4rem;
 }
