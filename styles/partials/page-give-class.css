@@ -125,4 +125,14 @@
     #page-give-class #schedule-items .input-block+.input-block {
         margin-top: 0;
     }
+    #page-give-class main footer {
+        padding: 40px 64px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #page-give-class main footer button {
+        margin-top: 0;
+        width: 200px;
+    }
 }
