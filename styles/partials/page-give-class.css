@@ -110,4 +110,19 @@
     #page-give-class #container {
         max-width: 100vw;
     }
+    #page-give-class .page-header .header-content {
+        margin-bottom: 0;
+    }
+    #page-give-class main fieldset {
+        padding: 0 64px;
+    }
+    .schedule-item {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        column-gap: 1.6rem;
+    }
+    #page-give-class #schedule-items .select-block+.input-block,
+    #page-give-class #schedule-items .input-block+.input-block {
+        margin-top: 0;
+    }
 }
